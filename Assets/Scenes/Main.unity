@@ -705,9 +705,47 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -4484298831450506368, guid: 5ce70a0ad35b7b0429a115946bb84d25, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.1678701
+      objectReference: {fileID: 0}
+    - target: {fileID: -4484298831450506368, guid: 5ce70a0ad35b7b0429a115946bb84d25, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.0696072
+      objectReference: {fileID: 0}
+    - target: {fileID: -2741386762057659069, guid: 5ce70a0ad35b7b0429a115946bb84d25, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.020395396
+      objectReference: {fileID: 0}
+    - target: {fileID: -2741386762057659069, guid: 5ce70a0ad35b7b0429a115946bb84d25, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.0061590713
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 5ce70a0ad35b7b0429a115946bb84d25, type: 3}
       propertyPath: m_Name
       value: 2026-09-06_16-01-22_Elles
+      objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: 5ce70a0ad35b7b0429a115946bb84d25, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 9bef1cbb50f67634684e082ebccbf5a3, type: 2}
+    - target: {fileID: 5866666021909216657, guid: 5ce70a0ad35b7b0429a115946bb84d25, type: 3}
+      propertyPath: m_AnimatePhysics
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: 5ce70a0ad35b7b0429a115946bb84d25, type: 3}
+      propertyPath: m_WarningMessage
+      value: "\nBinding warning: Some generic clip(s) animate transforms that are
+        already bound by a Humanoid avatar. These transforms can only be changed
+        by Humanoid clips.\n\tTransform 'J_Bip_R_UpperLeg'\n\tTransform 'J_Bip_C_UpperChest'\n\tTransform
+        'J_Bip_R_LowerArm'\n\tTransform 'J_Bip_C_Neck'\n\tTransform 'J_Bip_L_UpperLeg'\n\tTransform
+        'J_Bip_R_UpperArm'\n\tTransform 'J_Bip_L_UpperArm'\n\tTransform 'J_Bip_R_Hand'\n\tTransform
+        'J_Bip_C_Head'\n\tTransform 'J_Bip_C_Spine'\n\tand more ...\n\tFrom animation
+        clip 'mixamo.com'"
+      objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: 5ce70a0ad35b7b0429a115946bb84d25, type: 3}
+      propertyPath: m_ApplyRootMotion
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
