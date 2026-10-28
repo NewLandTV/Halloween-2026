@@ -367,6 +367,81 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1155607745}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &179104168
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 179104169}
+  - component: {fileID: 179104170}
+  m_Layer: 0
+  m_Name: Cut Book Reading Camera
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &179104169
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 179104168}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.15860946, y: -0.8415312, z: 0.35344127, w: -0.37649375}
+  m_LocalPosition: {x: -13.490236, y: 7.482421, z: 11.9516945}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1155607745}
+  m_LocalEulerAnglesHint: {x: -4.434, y: -137.994, z: 0}
+--- !u!114 &179104170
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 179104168}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9dfa5b682dcd46bda6128250e975f58, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.Cinemachine::Unity.Cinemachine.CinemachineCamera
+  Priority:
+    Enabled: 0
+    m_Value: 0
+  OutputChannel: 1
+  StandbyUpdate: 2
+  m_StreamingVersion: 20241001
+  m_LegacyPriority: 0
+  Target:
+    TrackingTarget: {fileID: 0}
+    LookAtTarget: {fileID: 0}
+    CustomLookAtTarget: 0
+  Lens:
+    FieldOfView: 60.000004
+    OrthographicSize: 5
+    NearClipPlane: 0.3
+    FarClipPlane: 1000
+    Dutch: 0
+    ModeOverride: 0
+    PhysicalProperties:
+      GateFit: 2
+      SensorSize: {x: 21.946, y: 16.002}
+      LensShift: {x: 0, y: 0}
+      FocusDistance: 10
+      Iso: 200
+      ShutterSpeed: 0.005
+      Aperture: 16
+      BladeCount: 5
+      Curvature: {x: 2, y: 11}
+      BarrelClipping: 0.25
+      Anamorphism: 0
+  BlendHint: 0
 --- !u!1 &218509902
 GameObject:
   m_ObjectHideFlags: 0
@@ -798,7 +873,7 @@ Camera:
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
-  field of view: 60
+  field of view: 60.000004
   orthographic: 0
   orthographic size: 5
   m_Depth: -1
@@ -824,8 +899,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 330585543}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.013571446, y: 0.9312451, z: -0.034867518, w: 0.36246747}
-  m_LocalPosition: {x: -0.49300003, y: -0.6, z: 3}
+  m_LocalRotation: {x: -0.15860946, y: -0.8415312, z: 0.35344127, w: -0.37649375}
+  m_LocalPosition: {x: -13.490236, y: 7.482421, z: 11.9516945}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -6313,7 +6388,7 @@ GameObject:
   - component: {fileID: 792653061}
   - component: {fileID: 792653062}
   m_Layer: 0
-  m_Name: Cut New Area Camera 4
+  m_Name: Follow Elles Camera
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7120,6 +7195,7 @@ Transform:
   - {fileID: 1032174600}
   - {fileID: 866761123}
   - {fileID: 792653059}
+  - {fileID: 179104169}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1269540275 stripped
@@ -8906,7 +8982,7 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 1124073471
+    rgba: 4294967295
   m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
@@ -9092,6 +9168,63 @@ Transform:
   m_Children: []
   m_Father: {fileID: 772876435}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &2049700032
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 32ec6a77d85db9745a7f56017fd34c9a, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.3620541
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 32ec6a77d85db9745a7f56017fd34c9a, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.1982899
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 32ec6a77d85db9745a7f56017fd34c9a, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.72947824
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 32ec6a77d85db9745a7f56017fd34c9a, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.25973734
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 32ec6a77d85db9745a7f56017fd34c9a, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.35354024
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 32ec6a77d85db9745a7f56017fd34c9a, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.65370184
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 32ec6a77d85db9745a7f56017fd34c9a, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.6166196
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 32ec6a77d85db9745a7f56017fd34c9a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 81.82
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 32ec6a77d85db9745a7f56017fd34c9a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 137.34
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 32ec6a77d85db9745a7f56017fd34c9a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 265.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 32ec6a77d85db9745a7f56017fd34c9a, type: 3}
+      propertyPath: m_Name
+      value: CORVUS Book
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 32ec6a77d85db9745a7f56017fd34c9a, type: 3}
 --- !u!1 &2082679032
 GameObject:
   m_ObjectHideFlags: 0
@@ -14190,6 +14323,7 @@ SceneRoots:
   - {fileID: 330585546}
   - {fileID: 772876435}
   - {fileID: 1388844951}
+  - {fileID: 2049700032}
   - {fileID: 595725139}
   - {fileID: 2082679036}
   - {fileID: 1135319959}
