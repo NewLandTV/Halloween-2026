@@ -14,21 +14,21 @@ OcclusionCullingSettings:
 RenderSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 10
-  m_Fog: 0
-  m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  m_Fog: 1
+  m_FogColor: {r: 0.31436214, g: 0.28893736, b: 0.4056604, a: 1}
   m_FogMode: 3
-  m_FogDensity: 0.01
+  m_FogDensity: 0.03
   m_LinearFogStart: 0
   m_LinearFogEnd: 300
-  m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
-  m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
-  m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
+  m_AmbientSkyColor: {r: 0.04722243, g: 0.038848355, b: 0.084905684, a: 1}
+  m_AmbientEquatorColor: {r: 0.11320752, g: 0.11320752, b: 0.11320752, a: 1}
+  m_AmbientGroundColor: {r: 0.0754717, g: 0.059963692, b: 0.054467782, a: 1}
   m_AmbientIntensity: 2.5
-  m_AmbientMode: 0
+  m_AmbientMode: 1
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
   m_SkyboxMaterial: {fileID: 2100000, guid: 9608213a80c78c146af27a947d1db94a, type: 2}
   m_HaloStrength: 0.5
-  m_FlareStrength: 1
+  m_FlareStrength: 0.2
   m_FlareFadeSpeed: 3
   m_HaloTexture: {fileID: 0}
   m_SpotCookie: {fileID: 10001, guid: 0000000000000000e000000000000000, type: 0}
@@ -383,7 +383,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &179104169
 Transform:
   m_ObjectHideFlags: 0
@@ -392,8 +392,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 179104168}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.15860946, y: -0.8415312, z: 0.35344127, w: -0.37649375}
-  m_LocalPosition: {x: -13.490236, y: 7.482421, z: 11.9516945}
+  m_LocalRotation: {x: 0.00492871, y: 0.5428658, z: 0.0028636598, w: -0.8398001}
+  m_LocalPosition: {x: -0.7139969, y: -1.8802944, z: -0.6589494}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -873,7 +873,7 @@ Camera:
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
-  field of view: 60.000004
+  field of view: 60
   orthographic: 0
   orthographic size: 5
   m_Depth: -1
@@ -899,8 +899,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 330585543}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.15860946, y: -0.8415312, z: 0.35344127, w: -0.37649375}
-  m_LocalPosition: {x: -13.490236, y: 7.482421, z: 11.9516945}
+  m_LocalRotation: {x: 0.013571446, y: 0.9312451, z: -0.034867518, w: 0.36246747}
+  m_LocalPosition: {x: -0.49300003, y: -0.6, z: 3}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -6678,7 +6678,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 180032, guid: fe9bfb5044c0cc646baba1ad7d354100, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 11403584, guid: fe9bfb5044c0cc646baba1ad7d354100, type: 3}
       propertyPath: m_Sprite
@@ -8876,13 +8876,18 @@ PlayableDirector:
   m_ExposedReferences:
     m_References:
     - 648f4da2384a80443aad5bfa4c5cf279: {fileID: 717806611}
+    - 08f6be4620f136e4e8854a00934519c4: {fileID: 158690888}
     - 1d7231ae018dad9458cfe603b13a1e9a: {fileID: 866761124}
     - 05d96e9ba1de7bd4884602bb6d7751c2: {fileID: 1398093487}
     - 0c0564337052bf947862a8e2261d06f6: {fileID: 158690888}
+    - b220f623944a39a49a5f45985b65814d: {fileID: 179104170}
     - 9432e7b85cea3ce40b2edf9860c8a15b: {fileID: 159516719}
     - 8f6a41cc40257cb48a76326a975b0cc1: {fileID: 1032174601}
+    - c07fdedbd064e064684f508263f30329: {fileID: 717806611}
     - b6f6e5d0d0fc80c4884d3495deeeeed7: {fileID: 792653060}
     - 1f81a8ffcccaeed41add681c44d820bc: {fileID: 395479878}
+    - 9c3bb96c0973b874f9b969b65f460d94: {fileID: 792653060}
+    - 5bd2b1643ebb7e9409e81269e64a3a52: {fileID: 179104170}
     - 07149f66bd036ab40b2a01a8a7402b8d: {fileID: 159516719}
 --- !u!114 &1665476926
 MonoBehaviour:
@@ -8982,7 +8987,7 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
+    rgba: 3372220415
   m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
