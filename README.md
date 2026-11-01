@@ -16,8 +16,10 @@
 
 Magica, Happy Halloween 2026!
 
+[![Halloween 2026](https://img.youtube.com/vi/Y02wKTxIghU/0.jpg)](https://www.youtube.com/watch?v=Y02wKTxIghU)
+
 ## Information
 
 | Project Version | BGM | Map Design | Video |
 | :-: | :-: | :-: | :-: | 
-| Unity 6000.3.11f1 | 🎵 Starry Magic | - | - |
+| Unity 6000.3.11f1 | [🎵 Starry Magic](https://www.youtube.com/watch?v=Diybo_JJtfU) | - | [JkhTV](https://www.youtube.com/channel/UC0lR1aYGgOhFioC3IsazUtw) |
