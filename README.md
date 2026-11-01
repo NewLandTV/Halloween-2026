@@ -18,6 +18,14 @@ Magica, Happy Halloween 2026!
 
 [![Halloween 2026](https://img.youtube.com/vi/Y02wKTxIghU/0.jpg)](https://www.youtube.com/watch?v=Y02wKTxIghU)
 
+## Assets
+
+- [Book - Page Curl](https://assetstore.unity.com/packages/tools/animation/book-page-curl-55588)
+- [Cartoon Shader](https://assetstore.unity.com/packages/vfx/shaders/cartoon-shader-311082)
+- [Fantasy Forest Environment - Free Demo](https://assetstore.unity.com/packages/3d/environments/fantasy/fantasy-forest-environment-free-demo-35361)
+- [FastSky - Procedural Sky and Clouds URP](https://assetstore.unity.com/packages/vfx/shaders/fastsky-procedural-sky-and-clouds-urp-209857)
+- [Old Radio](https://assetstore.unity.com/packages/3d/props/old-radio-148636)
+
 ## Information
 
 | Project Version | BGM | Map Design | Video |
