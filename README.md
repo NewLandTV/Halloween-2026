@@ -16,6 +16,8 @@
 
 Magica, Happy Halloween 2026!
 
+## Video
+
 [![Halloween 2026](https://img.youtube.com/vi/Y02wKTxIghU/0.jpg)](https://www.youtube.com/watch?v=Y02wKTxIghU)
 
 ## Assets
@@ -30,4 +32,4 @@ Magica, Happy Halloween 2026!
 
 | Project Version | BGM | Map Design | Video |
 | :-: | :-: | :-: | :-: | 
-| Unity 6000.3.11f1 | [🎵 Starry Magic](https://www.youtube.com/watch?v=Diybo_JJtfU) | - | [JkhTV](https://www.youtube.com/channel/UC0lR1aYGgOhFioC3IsazUtw) |
+| [Unity 6000.3.11f1](https://unity.com/kr/releases/editor/whats-new/6000.3.11f1) | 🎵 [Starry Magic](https://www.youtube.com/watch?v=Diybo_JJtfU) | Fantasy Forest Environment by [TriForge Assets](https://assetstore.unity.com/ko-KR/publishers/6452) | [JkhTV](https://www.youtube.com/channel/UC0lR1aYGgOhFioC3IsazUtw) |
